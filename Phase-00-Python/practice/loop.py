@@ -17,3 +17,18 @@ for num in range(1,50):
         print(num, end=" ")
 
 print()
+
+# 2. The Interactive Guard
+# Concept: while loop for indefinite input validation.
+# Goal: Continuously ask the user to input a positive number. If they input a negative number or zero, print an error and ask again. Stop only when a valid positive number is entered.
+
+while True:
+    try:
+        user_input = int(input("Enter a number : "))
+        if user_input > 0 :
+            print(f'You entered right value: {user_input}')
+            break
+        else:
+            print("Please Enter a Positive Integer")
+    except ValueError:
+        print("Please Enter a valid code..!")
