@@ -40,3 +40,64 @@ while True:
             break
         else:
             print("please enter valid name")
+            
+            
+# Skip the Vowels 
+# Concept : Interating strings with continue.
+# Goal : Take a string and print only its oconsonats. Skip every vowel using the continue statement.
+
+word = "PythonProgrammingLanguage"
+vowels = "AEIOUaeiou"
+print("Consonant Only : ")
+for char in word:
+    if char in vowels:
+        continue
+    else:
+        print(char, end=" ")
+print(" ")
+
+# Next Level : Accumulators & State Tracking
+# Connect : while loop with cumulative addition.
+# Goal : Given a maximum budget limit, process a list of expenses one by one. keep adding expence to your total until the next would exceed the limit. Stop immediately when that limit is threatened.
+budget_limit = 100
+expenses = [30,20,40,10,50]
+current_total = 0
+for ex in expenses:
+    if current_total + ex > budget_limit:
+        print(f'Stop Adding.! {ex} exceeding budget!')
+        break
+    current_total += ex
+    print(f'Add Expenses : {ex}.Total : {current_total}')
+print(f'Total Expenses : {current_total}')
+
+# next level 
+# Inventory search Safeguard 
+# Concept : Using loop else for "Not Found" scenarios.
+# Goal : Search an Inventory list for a specific item. If found, print a success message and break. If the loop finishes scanning without finding it, trigger the else block to log a "Restock Required" alert.
+
+inventory = ["laptop", "PC", "Mouse", "CPU", "Cable"]
+search_item = "PC"
+
+for items in inventory:
+    if search_item == items:
+        print(f'Item find in inventory : {inventory} {inventory.index(items)}')
+        break
+    else:
+        print("Item not exist in inventory Please try again..!")
+        
+# next level
+# Alternating Sums
+# Concept : Dynamic loop arithematic using indexes.
+# Goal : Calculate the sum of a list where numbers at even indices are added, and numbers at odd idices are subtracted.  
+number = [2,5,6,7,1,8,9]
+total_namuber = 0
+
+for n in number:
+    if (n % 2 == 0):
+        total_namuber += n
+        print(f'Even Number : {total_namuber}')
+    else:
+        total_namuber -= n
+        print(f'Odd Number : {total_namuber}')
+        
+print(f'Total Number : {total_namuber}')
