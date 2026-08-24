@@ -68,7 +68,7 @@ Job Ready 🚀
 
 | Phase | Topic | Progress | Status |
 |---|---|---:|---|
-| 00 | 🐍 Python Foundation | 0% | 🔴 Not Started |
+| 00 | 🐍 Python Foundation | 0% | 🟢 Started |
 | 01 | ⚙️ Backend Engineering | 0% | 🔴 Not Started |
 | 02 | 📊 Data + ML Fundamentals | 0% | 🔴 Not Started |
 | 03 | 🧠 Deep Learning | 0% | 🔴 Not Started |
