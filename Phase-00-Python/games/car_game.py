@@ -1,5 +1,5 @@
 Started = False
-Stopped = False
+# Stopped = False
 # command = ''
 print("Welcome to the car Please Enter the command to start or stop")
 while True:
@@ -11,10 +11,10 @@ while True:
             Started = True
             print('Welcome your car is strat now')
     elif command == "stop":
-        if Stopped:
+        if not Started:
             print("Sorry you already stopped the car")
         else:
-            Stopped = True
+            Started = False
             print ('Your car has stopped')
     elif command == "quit" or command == "exit":
         break
