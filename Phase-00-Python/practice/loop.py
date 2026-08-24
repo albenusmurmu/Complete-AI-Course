@@ -32,3 +32,11 @@ while True:
             print("Please Enter a Positive Integer")
     except ValueError:
         print("Please Enter a valid code..!")
+        
+while True:
+        user_name = input("Enter Your Name : ")
+        if user_name.isalpha():
+            print("name follow the rules")
+            break
+        else:
+            print("please enter valid name")
