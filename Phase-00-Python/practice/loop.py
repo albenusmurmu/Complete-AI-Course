@@ -101,3 +101,18 @@ for n in number:
         print(f'Odd Number : {total_namuber}')
         
 print(f'Total Number : {total_namuber}')
+
+# For Loop
+# A kind of object not list
+for item in range(10):
+    print(item)
+for item in range(5, 10):
+    print(item)
+
+print(" ")
+    
+prices = [20,10,30]
+total = 0
+for price in prices:
+    total += price
+print(total)
