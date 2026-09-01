@@ -146,3 +146,16 @@ print(name[-1])
 print(name[0:4])
 print(name[:2])
 print(name[:])
+
+# out put
+# ['Peter', 'Parker', 'Hello', 'Markush', 'Pareek']
+# Pareek
+# ['Peter', 'Parker', 'Hello', 'Markush']
+# ['Peter', 'Parker']
+# ['Peter', 'Parker', 'Hello', 'Markush', 'Pareek']
+
+# ['9', '8', '7', '6', '5', '4', '3', '2', '1']
+# 1
+# ['9', '8', '7', '6']
+# ['9', '8']
+# ['9', '8', '7', '6', '5', '4', '3', '2', '1']
