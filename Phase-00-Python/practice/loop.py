@@ -137,3 +137,12 @@ for x_count in numbers:
      for count in range(x_count):
          output +=  'X'
      print(output)
+# count index
+# name = ['Peter', 'Parker', 'Hello', 'Markush', 'Pareek']
+name = ['1','2','3','4','5','6','7','8','9']
+name.sort(reverse=True)
+print(name)
+print(name[-1])
+print(name[0:4])
+print(name[:2])
+print(name[:])
