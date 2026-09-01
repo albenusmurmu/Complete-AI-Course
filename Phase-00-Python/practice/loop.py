@@ -131,7 +131,6 @@ for number in numbers:
     print('X' * number)
     
 # using nested loop
-
 numbers = [5,2,5,2,2]
 for x_count in numbers:
      output = ''
