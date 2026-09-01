@@ -159,3 +159,13 @@ print(name[:])
 # ['9', '8', '7', '6']
 # ['9', '8']
 # ['9', '8', '7', '6', '5', '4', '3', '2', '1']
+
+
+# Logical
+food = "Pizza"
+ans = food.replace("z","s")
+print(ans)
+print(food)
+# output
+# Pissa
+# Pizza
