@@ -169,3 +169,12 @@ print(food)
 # output
 # Pissa
 # Pizza
+
+# Questions
+# write a program to find the largest number in list
+num = [1,2,3,4,5,6,7,8,9]
+max = num[0]
+for i in num:
+    if i > max:
+        max = i
+print(max)
