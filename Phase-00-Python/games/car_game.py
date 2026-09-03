@@ -3,7 +3,7 @@ Started = False
 # command = ''
 print("Welcome to the car Please Enter the command to start or stop")
 while True:
-    command = input("> ").lower()
+    command = input("-> ").lower()
     if command == "start":
         if Started:
             print("Sorry you already started the car")
@@ -33,3 +33,4 @@ enter
 --help
 --h
 """)
+print("Thanks You Please Share Your Experience With Us.!")
