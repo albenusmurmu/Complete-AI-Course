@@ -1,0 +1,14 @@
+List Method :-
+- symbol [] = mutable but not change in original value
+
+methods : 
+- .append(20) // this value append in last of numbers
+- .insert(0, 20) // we can set the custmize value where we want to insert the value
+- .remove(5) // here 5 is a value if we want to remove the number 5 which is available in number variable 
+- .clear() // remove all the numbers from the number variable
+
+
+
+
+tuple :- 
+- symbol () = immutable can't chnage or reasign value 
