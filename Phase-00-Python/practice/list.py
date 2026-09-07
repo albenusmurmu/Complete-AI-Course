@@ -27,3 +27,12 @@ print(numbers)
 # copy() method
 # insert
 # append
+
+# write a program to remove the duplicate in the list
+numbers = [2,4,6,9,20,30,10,4]
+dup = []
+for num in numbers:
+    if num not in dup:
+        dup.append(num)
+print(dup)
+print(numbers)
