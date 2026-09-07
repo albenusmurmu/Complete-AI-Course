@@ -23,3 +23,16 @@ output = ""
 for ch in user_input:
     output += digit_mapping.get(ch, "!") + " "
 print(output)
+
+#  FUn With Emoji Print 
+user_input = input("> ")
+words = user_input.split()
+# print(words)
+emoji = {
+    ":)":"🙂",
+    ":(":"🙁"
+}
+total = " "
+for word in words:
+    total += emoji.get(word, word) + " "
+print(total)
