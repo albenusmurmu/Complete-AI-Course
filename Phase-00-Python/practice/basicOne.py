@@ -18,7 +18,7 @@ user_weight_lbs = input("Enter your weight(lbs): ")
 user_weight_kgs = float(user_weight_lbs) * 0.45
 
 print("In kG : ", user_weight_kgs)
-# or
+# or 
 print("In kG : " + str(user_weight_kgs))
 # or
 print(f'In kg {user_weight_kgs}')

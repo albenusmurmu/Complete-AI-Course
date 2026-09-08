@@ -12,3 +12,12 @@ methods :
 
 tuple :- 
 - symbol () = immutable can't chnage or reasign value 
+
+
+Functions :-
+ In python, a Functions is a self combined, resuable block of code designed to perform a specific task
+ ex :-
+ def function_name(parameter1, parameter2):
+    # Function body: code that runs when called
+    result = parameter1 + parameter2
+    return result  # Sends a value back to the caller
