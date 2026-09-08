@@ -17,3 +17,10 @@ def user_data(name,email,password):
 user_data("Peter","peter@gmail.com","Peter@123#")
 
 #03
+# keyword arguments
+# keyword arguments
+def greet_user(first_name, last_name, company):
+    print(f'Hey {first_name} {last_name} welcome to {company} !')
+
+greet_user(last_name="Murmu",first_name="peter",company= "cloudy coders")
+
