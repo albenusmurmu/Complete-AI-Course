@@ -21,3 +21,20 @@ Functions :-
     # Function body: code that runs when called
     result = parameter1 + parameter2
     return result  # Sends a value back to the caller
+
+ #04
+# here I am giving you the brief example for both conditions
+# 01 when We're trying to pass the values in the form of keyword and then possitional arguments, and genuinely it's not perfact way to pass the values.
+# 02 If we're trying to pass values then first we need to define possitional argument and then keyword argument
+# here are both code so that it can be clear
+# 01
+def user_data(first_name, last_name, age,):
+    print(f'Hey, {first_name } {last_name} you are {age} years old')
+user_data(first_name = 'John', last_name = 'Doe', age = 18)
+
+# 02
+def user_data(first_name, last_name, age,):
+    print(f'Hey, {first_name } {last_name} you are {age} years old')
+user_data(first_name = 'John', last_name = 'Doe', age = 18)
+
+
