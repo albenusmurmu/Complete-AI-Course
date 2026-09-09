@@ -37,4 +37,12 @@ def user_data(first_name, last_name, age,):
     print(f'Hey, {first_name } {last_name} you are {age} years old')
 user_data(first_name = 'John', last_name = 'Doe', age = 18)
 
+# 03 return statement
+# Here we're experiment with code like when we can't return the values and then try to print the values outside the
+# functions it returns the None, but why happen this, I explain this through the code
+def mathematical_calculations(a,b):
+    print(a*b)
+    # skip return statement
+# Positional argument
+print(mathematical_calculations(25,30)) # this print values return none
 
