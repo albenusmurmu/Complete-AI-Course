@@ -33,3 +33,13 @@ def greet_user(greet,first_name, last_name, company):
     print(f'{greet} {first_name} {last_name} welcome to {company} !')
 
 greet_user("hello", last_name="Murmu",first_name="peter",company= "cloudy coders")
+
+# 05 Return Statement
+
+def user_data(a,b,c):
+    add = a + b + c
+    sub = a - b - c
+    total = add + sub
+    return total + add + sub
+output = user_data(25,30,5)
+print(f' output : {output}')
