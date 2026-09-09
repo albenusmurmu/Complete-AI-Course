@@ -24,3 +24,13 @@ def greet_user(first_name, last_name, company):
 
 greet_user(last_name="Murmu",first_name="peter",company= "cloudy coders")
 
+
+#04
+# here we pass the possitional and keyword arguments 
+# Important :- we cann't define first keyword argument and then possitional argument this gives us error
+# keyword arguments
+# keyword arguments
+def greet_user(greet,first_name, last_name, company):
+    print(f'{greet} {first_name} {last_name} welcome to {company} !')
+
+greet_user("hello", last_name="Murmu",first_name="peter",company= "cloudy coders")
