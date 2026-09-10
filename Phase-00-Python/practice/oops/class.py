@@ -3,3 +3,4 @@ class Person:
     age = 36
 p1 = Person()
 print(p1.name + " age is " + str(p1.age))
+print("hello world")
