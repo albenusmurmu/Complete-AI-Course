@@ -28,3 +28,24 @@ p1.x = 10
 p1.y = 20
 print(p1.x, p1.y)
 p1.move()
+
+# 04
+try:
+    class Point:
+        def move(self):
+            print("move")
+
+        def draw(self):
+            print("draw")
+    p1 = Point()
+    p1.x = 10
+    p1.y = 20
+    print(p1.x, p1.y)
+    p1.move()
+    # here we will get the AttributeError 
+    p2 = Point()
+    print(p2.x)
+
+except Exception as e:
+    print(e)
+
