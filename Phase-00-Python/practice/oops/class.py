@@ -4,3 +4,14 @@ class Person:
 p1 = Person()
 print(p1.name + " age is " + str(p1.age))
 print("hello world")
+
+# 02
+class Point:
+    def move(self, a,b):
+        # print("move")
+        return a + b
+    def draw(self):
+        print("draw")
+
+p1 = Point()
+print(p1.move(a=1,b=2))
