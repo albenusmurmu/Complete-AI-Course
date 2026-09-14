@@ -24,7 +24,7 @@ for ch in user_input:
     output += digit_mapping.get(ch, "!") + " "
 print(output)
 
-#  FUn With Emoji Print 
+#  FUn With Emoji Print , this dictionary data will use during projects building
 user_input = input("> ")
 words = user_input.split()
 # print(words)
