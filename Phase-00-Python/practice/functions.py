@@ -17,7 +17,7 @@ def user_data(name,email,password):
 user_data("Peter","peter@gmail.com","Peter@123#")
 
 #03 
-# keyword arguments
+# keyword arguments , here we pass the values in keyword format
 def greet_user(first_name, last_name, company):
     print(f'Hey {first_name} {last_name} welcome to {company} !')
 
