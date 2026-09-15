@@ -48,4 +48,25 @@ try:
 
 except Exception as e:
     print(e)
+    
+    
+# constructors
+
+class Cons:
+    #  during object creation used def __new__(cls, *args, **kwargs):
+    # self is used for current values
+    # Object Initialization Phase
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y   
+             
+    def one(self):
+        print("One")
+        
+    def two(self):
+        print("two")
+output = Cons(10,20)
+print(output.x, output.y)
+     
+
 
