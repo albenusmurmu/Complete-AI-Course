@@ -50,7 +50,7 @@ except Exception as e:
     print(e)
     
     
-# constructors
+# 05 constructors
 
 class Cons:
     #  during object creation used def __new__(cls, *args, **kwargs):
@@ -66,7 +66,6 @@ class Cons:
     def two(self):
         print("two")
 output = Cons(10,20)
+output.x = 30
 print(output.x, output.y)
-     
-
 
