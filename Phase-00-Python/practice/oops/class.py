@@ -69,3 +69,17 @@ output = Cons(10,20)
 output.x = 30
 print(output.x, output.y)
 
+#06 constructors
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print(self.name)
+        print("talk method")
+
+output = Person("Peter")
+print(output.name) # peter
+output.talk() #peter and talk method
+
+
