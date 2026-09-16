@@ -82,4 +82,26 @@ output = Person("Peter")
 print(output.name) # peter
 output.talk() #peter and talk method
 
+# 07
+class Test:
+    def __init__(self, first_name, last_name,age):
+        self.full_name = first_name + ' ' + last_name
+        print(self.full_name)
+        self.age = age
+        print(self.age)
+
+    def hell0(self):
+        # self.age = age
+        print(self.full_name)
+        print(self.age)
+        print("hello peter.!")
+
+output = Test("pter","parker",20)
+print(output.full_name)
+# print(output.age)
+output.hell0()
+
+
+
+
 
