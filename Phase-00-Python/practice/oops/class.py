@@ -101,6 +101,26 @@ print(output.full_name)
 # print(output.age)
 output.hell0()
 
+# 08
+class Test:
+    def __init__(self, first_name, last_name, age):
+        self.full_name = first_name + ' ' + last_name
+        self.age = age
+
+    # Add this method to customize how the object displays
+    def __str__(self):
+        return f"User: {self.full_name}, Age: {self.age}"
+
+    def hell0(self):
+        print(self.full_name)
+        print(self.age)
+        print("hello peter.!")
+
+output = Test("pter", "parker", 20)
+print(output)  # This will now print: User: pter parker, Age: 20
+output.hell0()
+
+
 
 
 
