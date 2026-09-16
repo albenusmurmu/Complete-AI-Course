@@ -1,4 +1,6 @@
 import convertor
+# import specific function from the entire module
+from convertor import lbs_to_kg
 
 output = convertor.kg_to_lbs(60)
 print(f'in lbs : {int(output)}')
