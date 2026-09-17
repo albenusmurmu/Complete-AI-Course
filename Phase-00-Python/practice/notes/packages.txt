@@ -1,3 +1,6 @@
 # packages are contain the different kinds of modules
 lets we have a e-commerce platform 
 inside e-commerce there is shoes , shirts, jeans this types of modules are there
+
+instance of create the directories we create the packages and we can write the name like this( __init__.py) // this basically carry  the multiple inbuilt functions 
+i created the packages in this AI courses
