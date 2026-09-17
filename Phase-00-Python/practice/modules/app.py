@@ -7,3 +7,18 @@ print(f'in lbs : {int(output)}')
 
 outputTwo = convertor.lbs_to_kg(133.33333333333334)
 print(f'in kgs : {int(outputTwo)}')
+
+# //// for ecommerce package
+
+import ecommerce.shipping
+# call calculator functions
+ecommerce.shipping.calc_shipping()
+
+# # import particular field 
+
+from ecommerce.shipping import calc_shipping, add
+# access functions
+calc_shipping()
+calc_shipping()
+add()
+
