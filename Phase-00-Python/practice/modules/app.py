@@ -8,21 +8,18 @@ print(f'in lbs : {int(output)}')
 outputTwo = convertor.lbs_to_kg(133.33333333333334)
 print(f'in kgs : {int(outputTwo)}')
 
-# //// for ecommerce package
+# importing from out side
 
+import sys
+import os
+
+# Adds the parent folder ('practice') to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Example usage:
+# Success case
+# from ecommerce.shipping import calculate_shipping
 import ecommerce.shipping
-# call calculator functions
-ecommerce.shipping.calc_shipping()
+print(ecommerce.shipping.calculate_shipping(2, 1, 3, warehouse_ready=True))  # Outputs: (2, 1, 3)
 
-# # import particular field 
-
-from ecommerce.shipping import calc_shipping, add
-# access functions
-calc_shipping()
-calc_shipping()
-add()
-
-# another method
-from ecommerce import shipping
-
-shipping.calc_shipping()
+# Error case
+print(ecommerce.shipping.calculate_shipping(2, 1, 3, warehouse_ready=False))  # Outputs: Warehouse is not ready...
