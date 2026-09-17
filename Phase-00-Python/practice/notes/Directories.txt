@@ -1,0 +1,9 @@
+Path
+There are 2 types of directories Path
+
+1. relative Path
+#c:\Users\CloudyCoders\Downloads\COmplete AI Course\ -> relative path for window
+2. absolute Path
+# i am creating new code for this
+
+
