@@ -11,3 +11,4 @@
 # Conditions
 # Loop
 # range(2, 8, 2) => range(start, stop, step) -> Correct! The range starts at 2, stops just before 8, and steps by 2.   = 2, 4,6  answer.
+
