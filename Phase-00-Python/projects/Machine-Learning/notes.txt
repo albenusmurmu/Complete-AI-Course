@@ -47,6 +47,10 @@ Here i am write down all the notes that i gonna learn via lecture document whate
    ctrl+Enter - run selected cell and do not advance 
    shift+Enter - run selected cell
    Alt + Enter - run selected cell and Insert below
+   shift + Tab - describe the function in detail, just poit it through the cursor
 
+7. Real Problems
+Ques :- Imagine we have a online music store, when user signup so based on the user aged and their profile they recommended the music
+  -> open music library data - https://bit.ly/music-csv (its a random data not Real)
   
 
