@@ -29,7 +29,7 @@ Here i am write down all the notes that i gonna learn via lecture document whate
 - here we used the Jupyter on Anaconda so first download the Anaconda
 
 5. Importing a Data set from Kaggle.com
-Open -> signIn -> video game sales(Search This on search bar) -> download the data set
+   Open -> signIn -> video game sales(Search This on search bar) -> download the data set
 
  => Code that help you to basic understanding 
      import pandas as pd
@@ -39,4 +39,14 @@ Open -> signIn -> video game sales(Search This on search bar) -> download the da
      df.shape   # Returns the number of rows and columns
      df.describe()      # Generates descriptive statistics for numerical columns // it return the basic info
      df.values # Returns all DataFrame values as a NumPy array
+
+6. Jupyter Shortcuts
+   A - create space(line),(cell) on upper
+   B - create space(line),(cell) down
+   D - double press to delete line
+   ctrl+Enter - run selected cell and do not advance 
+   shift+Enter - run selected cell
+   Alt + Enter - run selected cell and Insert below
+
+  
 
