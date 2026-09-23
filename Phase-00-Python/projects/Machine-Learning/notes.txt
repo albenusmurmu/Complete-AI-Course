@@ -1,2 +1,10 @@
 This topics i started the learning by the mosh youtube channel
 Here i am write down all the notes that i gonna learn via lecture document whatever
+
+Machine Learning Aoolications :-
+- Self Driving car 
+- Robotics
+- Language processing
+- Vision processing
+- Forecasting Stock Market Trends
+
