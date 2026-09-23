@@ -26,3 +26,17 @@ Here i am write down all the notes that i gonna learn via lecture document whate
  4. Scikit-learn -> Open source python library used for Machine Learning and data modeling that provide the algorithms likes decission tree, neural networks and so on.
 
 4. Here we used Jupyter but technically we can used vs code but the Jupyter is more idol for Machine Learning Projects 
+- here we used the Jupyter on Anaconda so first download the Anaconda
+
+5. Importing a Data set from Kaggle.com
+Open -> signIn -> video game sales(Search This on search bar) -> download the data set
+
+ => Code that help you to basic understanding 
+     import pandas as pd
+
+     df = pd.read_csv('vgsales.csv')
+     df   # Displays the complete dataset
+     df.shape   # Returns the number of rows and columns
+     df.describe()      # Generates descriptive statistics for numerical columns // it return the basic info
+     df.values # Returns all DataFrame values as a NumPy array
+
