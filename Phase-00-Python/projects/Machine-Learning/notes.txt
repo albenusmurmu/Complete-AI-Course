@@ -8,3 +8,13 @@ Machine Learning Aoolications :-
 - Vision processing
 - Forecasting Stock Market Trends
 
+
+ML Steps:-
+1. Import Data
+2. Clean the Data (Cuz it can give the wrong answer thats why it need to Clean)
+3. Split the Data into Training / Test Sets (We split the data into two segment Training and testing Like if 80% of data for Training and 20% of data for testing)
+4. create a Model ( Selecting the algorithm to analyize data there are too many algorithm to analyize such as decission tree, neural network and so on, each algorithm has pros and cons)
+- Scikit-learn(Open source python library used for Machine Learning and data modeling )
+5. Train the model
+6. Make Predictions
+7. Evaluate and Improve(This is why we need more accuracy)
