@@ -54,3 +54,114 @@ Ques :- Imagine we have a online music store, when user signup so based on the u
   -> open music library data - https://bit.ly/music-csv (its a random data not Real)
   
 
+
+
+* = * More deatil comment for the projects that i implemented
+
+# Import Pandas library for working with data and CSV files
+import pandas as pd
+
+# Import DecisionTreeClassifier algorithm from Scikit-learn
+# This algorithm will be used to train our Machine Learning model
+from sklearn.tree import DecisionTreeClassifier
+
+# Import joblib library
+# joblib is used to save a trained ML model and load it later
+import joblib
+
+
+# ---------------------------------------------------------
+# 1. IMPORT / LOAD THE DATA
+# ---------------------------------------------------------
+
+# Read the music.csv file and store the data inside a DataFrame
+music_data = pd.read_csv('music.csv')
+
+# music_data now contains the complete dataset
+# Example:
+# age | gender | genre
+# 21  | 1      | HipHop
+# 22  | 0      | Jazz
+
+
+# ---------------------------------------------------------
+# 2. SEPARATE INPUT FEATURES (X) AND TARGET (Y)
+# ---------------------------------------------------------
+
+# Create X (input/features)
+# We remove the 'genre' column because genre is what we want
+# the model to predict
+x = music_data.drop(columns=['genre'])
+
+# Create Y (target/output)
+# 'genre' is the value that the model needs to learn and predict
+y = music_data['genre']
+
+
+# ---------------------------------------------------------
+# 3. CREATE THE MACHINE LEARNING MODEL
+# ---------------------------------------------------------
+
+# Create a Decision Tree Classifier object
+# This object contains the Machine Learning algorithm
+model = DecisionTreeClassifier()
+
+
+# ---------------------------------------------------------
+# 4. TRAIN THE MODEL
+# ---------------------------------------------------------
+
+# Train the Decision Tree using our input data (x)
+# and the correct answers/target data (y)
+#
+# The model learns the relationship between:
+# age + gender → music genre
+model.fit(x, y)
+
+
+# ---------------------------------------------------------
+# 5. SAVE THE TRAINED MODEL
+# ---------------------------------------------------------
+
+# Save the trained model into a file
+# This creates a file named:
+# music-recommender.joblib
+#
+# We normally run this after training when we want
+# to save the trained model for future use.
+joblib.dump(model, 'music-recommender.joblib')
+
+
+# ---------------------------------------------------------
+# 6. LOAD THE SAVED MODEL
+# ---------------------------------------------------------
+
+# Load the previously saved model from the .joblib file
+#
+# This allows us to use the trained model without
+# training it again every time.
+model = joblib.load('music-recommender.joblib')
+
+
+# ---------------------------------------------------------
+# 7. MAKE A PREDICTION
+# ---------------------------------------------------------
+
+# Give the model new data that it has not seen before
+#
+# [21, 1] means:
+# Age = 21
+# Gender = 1
+#
+# The model will use these values to predict the
+# appropriate music genre.
+predictions = model.predict([[21, 1]])
+
+
+# ---------------------------------------------------------
+# 8. DISPLAY THE PREDICTION
+# ---------------------------------------------------------
+
+# Display the predicted music genre
+predictions
+
