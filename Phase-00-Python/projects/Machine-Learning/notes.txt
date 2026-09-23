@@ -1,7 +1,7 @@
 This topics i started the learning by the mosh youtube channel
 Here i am write down all the notes that i gonna learn via lecture document whatever
 
-Machine Learning Aoolications :-
+1. Machine Learning Aoolications :-
 - Self Driving car 
 - Robotics
 - Language processing
@@ -9,7 +9,7 @@ Machine Learning Aoolications :-
 - Forecasting Stock Market Trends
 
 
-ML Steps:-
+2. ML Steps:-
 1. Import Data
 2. Clean the Data (Cuz it can give the wrong answer thats why it need to Clean)
 3. Split the Data into Training / Test Sets (We split the data into two segment Training and testing Like if 80% of data for Training and 20% of data for testing)
@@ -18,3 +18,11 @@ ML Steps:-
 5. Train the model
 6. Make Predictions
 7. Evaluate and Improve(This is why we need more accuracy)
+
+3. Libraries and Tools
+ 1. Numpy -> Provide a mutlidimessional array
+ 2. Pandas -> Data Analysis library provide a concept called data frame. A data frame has two dimenssional data structure similer to an excel spreadsheet. so we have row and coloumns
+ 3. MatPlotLib -> Two dimenssional plotting library for creating graphs on plots.
+ 4. Scikit-learn -> Open source python library used for Machine Learning and data modeling that provide the algorithms likes decission tree, neural networks and so on.
+
+4. Here we used Jupyter but technically we can used vs code but the Jupyter is more idol for Machine Learning Projects 
