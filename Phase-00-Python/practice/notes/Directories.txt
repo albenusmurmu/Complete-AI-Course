@@ -6,6 +6,6 @@ There are 2 types of directories Path
 2. absolute Path
 # i am creating new code for this name is directories_path
 
-# Dictionary data are in object form
+# Dictionary data are in object format and there will be a key and value were we define.
 
 
