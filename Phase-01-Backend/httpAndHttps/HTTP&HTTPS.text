@@ -1,0 +1,47 @@
+URL :- https://www.geeksforgeeks.org/computer-networks/difference-between-http-and-https/
+
+- When browsing the internet, you often see website URLs starting with either http:// or https://. 
+ These prefixes indicate how data is transferred between your browser and the website’s server.
+ While both HTTP and HTTPS are communication protocols, the key difference lies in security. 
+ -> go with image for better understand
+
+ What is HTTP?
+HTTP (HyperText Transfer Protocol) is an application-layer protocol used for transferring data over the web. 
+It was introduced by Tim Berners-Lee to enable communication between web browsers and web servers. 
+HTTP defines a set of rules that allow clients (browsers) to request resources such as web pages, images, or videos from servers. 
+
+- Key Points about HTTPKey:
+Uses plain text for data transmission
+Does not provide encryption or authentication
+Vulnerable to data interception and modification
+Default port number: 80
+
+- Note: HTTP does not encrypt data, sensitive information such as passwords or payment details can be easily compromised.
+
+- How HTTP Works
+The client sends an HTTP request (e.g., GET or POST) to the server.
+The server processes the request.
+The server sends an HTTP response containing: Status code (e.g., 200, 404), Headers and Response body (data or error message).
+
+What is HTTPS?
+HTTPS stands for Hyper Text Transfer Protocol Secure. 
+HTTP Secure (HTTPS), could be a combination of the Hypertext Transfer Protocol with the SSL/TLS convention 
+to supply encrypted communication and secure distinguishing proof of an arranged web server.
+ HTTPS is more secure than HTTP because HTTPS is certified by the SSL(Secure Socket Layer).
+ Whatever website you are visiting on the internet, if its URL is HTTP, then that website is not secure.
+
+ Why HTTPS is Secure
+Data is encrypted, preventing eavesdropping
+Server identity is verified using digital certificates
+Protects against man-in-the-middle attacks
+
+Modern browsers clearly mark HTTPS websites as secure, and many features work only over HTTPS.
+
+
+- How HTTPS Works
+The client initiates a secure connection.
+The server presents its SSL/TLS certificate.
+The client verifies the certificate with a trusted authority.
+An encrypted session is established.
+All HTTP data is transferred securely inside this encrypted channel.
+Default port used by HTTPS: 443
